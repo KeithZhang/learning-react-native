@@ -13,7 +13,7 @@
 <br />
 
 ##0.13.0改变了哪些？
-    首先0.13开始支持在windows上用npm 3 安装react-native，虽然没有在mac上开发的好，但是会越来越好，然而对我并没什么用
+首先0.13开始支持在windows上用npm 3 安装react-native，虽然没有在mac上开发的好，但是会越来越好，然而对我并没什么用
 
 ####重大改变：
 1. setImmediate支持批量更新，React的更新方法如setState，将会被列入setImmediate方法批量执行，性能大大提高的同时也非常依赖该方法的精确的处理时间，不然容易引发bug
